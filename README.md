@@ -1,3 +1,5 @@
+8/7/14 22:58
+continuing my studies in Ruby even though I lost my job yesterday. Soldier on!
 == README
 
 This README would normally document whatever steps are necessary to get the

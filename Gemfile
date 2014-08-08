@@ -3,7 +3,7 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.8'
-gem 'pg'
+#gem 'pg'
 group :development do
   gem 'sqlite3', '1.3.8'
 end
@@ -19,6 +19,6 @@ group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
 
-group :development do
+group :production do
   gem 'pg'
 end
