@@ -7,16 +7,7 @@
 # no regular words or you'll be exposed to dictionary attacks.
 # You can use `rake secret` to generate a secure secret key.
 
-# Make sure the secrets in this file are kept private
+# Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
+Appp::Application.config.secret_token = '3a02bf3cfe9f7b3ab2451da735d55217ad49638885fe95b4311d48407d4a7c608841b182b5ca44742fb93049654e887777f0982a406be9e47ac816f8995f4fa1'
 
-development:
-  secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>
-
-test:
-  secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>
-
-# Do not keep production secrets in the repository,
-# instead read values from the environment.
-production:
-  secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>
